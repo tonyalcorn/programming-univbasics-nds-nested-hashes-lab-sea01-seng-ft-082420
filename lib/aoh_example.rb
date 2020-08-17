@@ -16,8 +16,12 @@ def assembled_aoh
     ]
 end
 
-def literal_aoh
-  [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
+def literal_aoh [
+  DON_G, 
+  JOELLE_VD, 
+  PAT_M, 
+  KATE_G, 
+  BRUCE_G]
   end
 
 def aoh_lookup(aoh, row, key)
