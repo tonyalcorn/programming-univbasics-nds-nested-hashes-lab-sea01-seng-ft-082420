@@ -27,8 +27,7 @@ def aoh_lookup(aoh, row, key)
 end
 
 def aoh_update(aoh, row, key, new_value)
-  # Update the AoH data at row and key to have the value of new_value
-  # Return the updated AoH
+  
 end
 
 # 2nd Method - Using Array literal syntax only, build a nested array that uses the data in
@@ -36,3 +35,5 @@ end
 
 # 1st Method - Build an array that contains (or, "nests") the constants into a single
   # Array. Ruby constants are denoted by ALL_CAPS
+# Update the AoH data at row and key to have the value of new_value
+  # Return the updated AoH
