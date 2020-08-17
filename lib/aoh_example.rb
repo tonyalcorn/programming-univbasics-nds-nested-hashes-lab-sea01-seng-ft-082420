@@ -21,8 +21,9 @@ def literal_aoh [
   JOELLE_VD, 
   PAT_M, 
   KATE_G, 
-  BRUCE_G]
-  end
+  BRUCE_G
+  ]
+end
 
 def aoh_lookup(aoh, row, key)
   aoh[row][key]
