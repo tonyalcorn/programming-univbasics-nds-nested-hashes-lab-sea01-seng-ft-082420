@@ -15,8 +15,7 @@ def assembled_aoh
     BRUCE_G
     ]
   
-  # Build an array that contains (or, "nests") the constants into a single
-  # Array. Ruby constants are denoted by ALL_CAPS
+  
 end
 
 def literal_aoh 
@@ -35,4 +34,5 @@ end
 # 2nd Method - Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
 
-
+# Build an array that contains (or, "nests") the constants into a single
+  # Array. Ruby constants are denoted by ALL_CAPS
