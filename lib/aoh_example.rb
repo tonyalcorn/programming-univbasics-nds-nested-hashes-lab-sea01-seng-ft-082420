@@ -19,10 +19,10 @@ def assembled_aoh
 end
 
 def literal_aoh 
-  DON_G = {
-    name: "Don Gately",
-    occupation: "Live-in Staff"
-  }
+  infinite_jest = [
+    {:name=>"Don Gately", :occupation=>"Live-in Staff"}
+    {:name=>"Joelle van Dyne", :occupation=>"Radio Personality"}
+    ]
 end
 
 def aoh_lookup(aoh, row, key)
