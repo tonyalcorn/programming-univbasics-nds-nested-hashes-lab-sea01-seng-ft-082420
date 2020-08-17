@@ -16,7 +16,8 @@ def assembled_aoh
     ]
 end
 
-def literal_aoh [
+def literal_aoh 
+  [
   DON_G, 
   JOELLE_VD, 
   PAT_M, 
