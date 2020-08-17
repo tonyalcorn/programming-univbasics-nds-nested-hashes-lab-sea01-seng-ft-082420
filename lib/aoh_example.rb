@@ -19,8 +19,10 @@ def assembled_aoh
 end
 
 def literal_aoh 
-  DON_G = {:name=>"Don Gately, :occupation=>"Live-in Staff"}
-  
+  DON_G = {
+    name: ["Don Gately"],
+    occupation: ["Live-in Staff"]
+  }
 end
 
 def aoh_lookup(aoh, row, key)
