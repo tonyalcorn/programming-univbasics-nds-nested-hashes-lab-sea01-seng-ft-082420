@@ -20,8 +20,8 @@ end
 
 def literal_aoh 
   DON_G = {
-    name: ["Don Gately"],
-    occupation: ["Live-in Staff"]
+    name: "Don Gately",
+    occupation: "Live-in Staff"
   }
 end
 
