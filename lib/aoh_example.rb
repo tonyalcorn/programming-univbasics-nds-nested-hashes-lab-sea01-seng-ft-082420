@@ -14,21 +14,14 @@ def assembled_aoh
     KATE_G,
     BRUCE_G
     ]
-  
-  
 end
 
-def literal_aoh [
-    DON_G,
-    JOELLE_VD,
-    PAT_M,
-    KATE_G,
-    BRUCE_G
-    ]
+def literal_aoh 
   
 end
 
 def aoh_lookup(aoh, row, key)
+  aoh[row][key]
 end
 
 def aoh_update(aoh, row, key, new_value)
